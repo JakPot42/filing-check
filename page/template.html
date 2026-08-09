@@ -392,8 +392,11 @@ footer h3{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spa
         <div>
           <h3>Record linkage, and why nothing is high confidence</h3>
           <p>A candidate link requires the same reporting entity, resolved through a normalizing
-          fuzzy matcher with a curated alias table, and a shared 11-character VIN prefix in the
-          same month. <strong>No linkage is treated as high confidence.</strong> Neither source
+          fuzzy matcher with a curated alias table, a shared 11-character VIN prefix, and
+          incident months no more than one month apart. Entity names are scored into three
+          bands: at or above 90 links automatically, 80 to 89 is flagged and never linked
+          unattended, below 80 is treated as distinct. No similarity score can override the
+          gate. <strong>No linkage is treated as high confidence.</strong> Neither source
           publishes VIN characters 12-17 (the serial that identifies an individual vehicle), so
           a shared prefix means a shared configuration, model year and plant, not a shared
           vehicle.</p>
