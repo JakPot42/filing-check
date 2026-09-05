@@ -187,6 +187,13 @@ corroboration of automated-vehicle incident filings is close to unavailable in t
 case**, which is precisely where autonomy, and therefore interest in independent
 corroboration, is highest.
 
+**Essay:** [You cannot prove nothing was
+hidden](docs/you-cannot-prove-nothing-was-hidden.md) sets this result in its wider context:
+why tamper-evidence is a solved problem that does not reach a filed, well-formed report that
+is wrong by omission, what the Cruise and Honda precedents show about how such omissions are
+actually caught, and why the IAEA is the right benchmark for any claim that nothing was
+hidden.
+
 ---
 
 ## Example of the methodology's output
