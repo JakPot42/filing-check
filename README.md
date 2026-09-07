@@ -161,6 +161,48 @@ fleet size, and by operating geography. Refusing it is the point, not a limitati
 
 ---
 
+### 6. Independent review of the linkage method
+
+The linkage method described above was posted for outside review, and one substantive
+independent answer was received.
+
+**Cross Validated, question 676898** — *"Estimating m and u by EM when the comparison vector is
+thin and highly correlated"* — posted August 17, 2026. On August 18, 2026,
+[D.W.](https://stats.stackexchange.com/users/2921/d-w) (reputation 7,408) answered:
+
+> [https://stats.stackexchange.com/a/676906](https://stats.stackexchange.com/questions/676898/estimating-m-and-u-by-em-when-the-comparison-vector-is-thin-and-highly-correlate)
+
+The reviewer had not seen this repository or its code. Two points in that answer converge with
+decisions already made here, by a different route:
+
+- **Entity name must not raise confidence.** Because entity name is largely determined by the
+  VIN prefix, agreement on it is not independent evidence once the prefix is conditioned on; it
+  may be used as a filter but must not enter the confidence score. This repository reaches the
+  same place from a different premise: the published 11-character prefix identifies a
+  configuration rather than a vehicle, so `HIGH_CONFIDENCE_METHODS` is empty and every linkage
+  is labelled LOW.
+- **The limit is the information available, not the estimator.** In the reviewer's words:
+  *"if there isn't enough information, there isn't enough information."* That is the same
+  conclusion this tool's design reached about the two published sources, arrived at
+  independently.
+
+**What the review does not cover.** It is a review of the linkage question as posed, and
+nothing else. It was not shown the match rate, the demonstration case, any named company, or
+any output of this tool, and it endorses none of them. It is one answer from one person.
+
+**The one thing it asks for that has not been done here.** The reviewer suggests hand-matching
+a small subset of records and comparing that against what the automated method produces, before
+reaching for more statistics. That manual spot-check has not been built or run. It is recorded
+as an open, unaddressed suggestion.
+
+**The other channel is still unanswered.** The same methodology question was posted August 9,
+2026 to Splink's Q&A forum
+([moj-analytical-services/splink discussion 3232](https://github.com/moj-analytical-services/splink/discussions/3232)),
+the record-linkage library maintained by the UK Ministry of Justice. It has received no replies
+and no comments as of September 6, 2026, 28 days after posting.
+
+---
+
 ## The headline result is a low match rate, and that is the expected outcome
 
 First real run, snapshot 2026-08-09:
