@@ -352,3 +352,9 @@ Requires Python 3.10+, `click` and `rich`. Run the tests with `python -m pytest 
 
 Full architecture, the data findings that shaped it, and the tensions between the framing
 constraint and usefulness are in [`DESIGN.md`](DESIGN.md).
+
+## License
+
+The fonts in `page/fonts/`, which are also embedded in `index.html`, are IBM Plex under the
+SIL Open Font License 1.1 (its text is in `page/fonts/LICENSE.txt`), and the data files in
+`snapshots/` are NHTSA snapshots; neither is covered by this repository's licence.
