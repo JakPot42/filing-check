@@ -20,3 +20,6 @@
 *.otf binary
 *.woff binary
 *.woff2 binary
+
+index.html linguist-generated
+page/** linguist-documentation

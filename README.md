@@ -166,8 +166,8 @@ fleet size, and by operating geography. Refusing it is the point, not a limitati
 The linkage method described above was posted for outside review, and one substantive
 independent answer was received.
 
-**Cross Validated, question 676898** — *"Estimating m and u by EM when the comparison vector is
-thin and highly correlated"* — posted August 17, 2026. On August 18, 2026,
+**Cross Validated, question 676898**, *"Estimating m and u by EM when the comparison vector is
+thin and highly correlated"*, posted August 17, 2026. On August 18, 2026,
 [D.W.](https://stats.stackexchange.com/users/2921/d-w) (reputation 7,408) answered:
 
 > [https://stats.stackexchange.com/a/676906](https://stats.stackexchange.com/questions/676898/estimating-m-and-u-by-em-when-the-comparison-vector-is-thin-and-highly-correlate)
@@ -240,7 +240,7 @@ hidden.
 
 ## Example of the methodology's output
 
-> ### ⚠ Read this before the example below
+> ### Read this before the example below
 >
 > **This is a demonstration of what the tool emits, not a finding about a company.** It is
 > included so the output format and its caveats can be inspected, and for no other purpose.
